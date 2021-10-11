@@ -305,6 +305,43 @@ button {
 .img1:not(:last-child) {
   margin-right: 30px;
 }
+.img1-list {
+  position: relative;
+}
+.img1-list:hover .img1-text {
+  opacity: 1;
+}
+.img1-list::before {
+  display: inline-block;
+  content: "";
+  width: 370px;
+  height: 70px;
+  background-color: rgba(47, 48, 58, 0.8);
+  position: absolute;
+  opacity: 0;
+  bottom: 0;
+  right: 0;
+}
+.img1-list:hover::before {
+  opacity: 1;
+}
+
+.img1-text {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+
+  position: absolute;
+  bottom: 50%;
+  left: 50%;
+  transform: translate(-50%, 700%);
+
+  opacity: 0;
+}
 
 /* TEAM */
 
