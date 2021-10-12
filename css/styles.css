@@ -853,11 +853,11 @@ button {
   width: 100%;
   padding: 63px 24px;
 
-  transition-property: transform;
+  /* transition-property: opacity;
   transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); */
 
-  transition-property: opacity;
+  transition-property: transform;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
