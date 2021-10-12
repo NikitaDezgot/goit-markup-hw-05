@@ -238,6 +238,67 @@ button {
   border-radius: 4px;
 }
 
+.backdrop {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0%;
+  background-color: rgba(0, 0, 0, 0.2);
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+}
+
+.backdrop.is-hidden {
+  opacity: 0;
+  pointer-events: none;
+}
+
+.modal {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 528px;
+  min-height: 581px;
+  background: #ffffff;
+  border-radius: 4px;
+}
+.close-modal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  position: absolute;
+  right: 8px;
+  top: 8px;
+  background-color: transparent;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+.close-but-modal {
+  width: 18px;
+  height: 18px;
+  justify-content: center;
+  align-items: center;
+}
+
+.close-modal:hover,
+.close-modal:focus {
+  border-color: #2196f3;
+  border-radius: 50%;
+}
+.close-modal:hover .close-but-modal,
+.close-modal:focus .close-but-modal {
+  fill: #2196f3;
+}
+/* .close-but-modal:hover,
+.close-but-modal:focus {
+  fill: #2196f3;
+} */
 /* ABOUT */
 
 .about {
