@@ -241,17 +241,17 @@ button {
   align-items: center;
   /* border-radius: 4px; */
 
-  transition-property: color;
+  transition-property: color, box-shadow, border-radius;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
-  transition-property: box-shadow;
+  /* transition-property: box-shadow;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
   transition-property: border-radius;
   transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); */
 }
 .hero-button:hover {
   color: #212121;
@@ -305,13 +305,13 @@ button {
   border: 1px solid rgba(0, 0, 0, 0.1);
   cursor: pointer;
 
-  transition-property: border-color;
+  transition-property: border-color, border-radius;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
-  transition-property: border-radius;
+  /* transition-property: border-radius;
   transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); */
 }
 .close-but-modal {
   width: 18px;
@@ -534,13 +534,13 @@ button {
   align-items: center;
   justify-content: center;
 
-  transition-property: background-color;
+  transition-property: background-color, border-radius;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
-  transition-property: border-radius;
+  /* transition-property: border-radius;
   transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); */
 }
 .social-link:hover,
 .social-link:focus {
@@ -610,13 +610,13 @@ button {
   background: #ffffff;
   border-radius: 4px;
 
-  transition-property: fill;
+  transition-property: fill, border;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
-  transition-property: border;
+  /* transition-property: border;
   transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); */
 }
 .social-partners-icon {
   width: 106px;
@@ -738,13 +738,13 @@ button {
   background-color: rgba(255, 255, 255, 0.1);
   border-radius: 50%;
 
-  transition-property: background-color;
+  transition-property: background-color, border-radius;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
-  transition-property: border-radius;
+  /* transition-property: border-radius;
   transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); */
 }
 .foot-social-link:hover,
 .foot-social-link:focus {
@@ -806,13 +806,13 @@ button {
   border-radius: 4px;
   border: none;
 
-  transition-property: color;
+  transition-property: color, background-color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
-  transition-property: background-color;
+  /* transition-property: background-color;
   transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); */
 }
 .portfolio-button:hover {
   background-color: #2196f3;
@@ -848,13 +848,13 @@ button {
   text-decoration: none;
   cursor: pointer;
 
-  transition-property: box-shadow;
+  transition-property: box-shadow, cursor;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
-  transition-property: cursor;
+  /* transition-property: cursor;
   transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); */
 }
 .port-itms {
   display: block;
@@ -878,13 +878,13 @@ button {
   width: 100%;
   padding: 63px 24px;
 
-  transition-property: opacity;
+  transition-property: opacity, transform;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
-  transition-property: transform;
+  /* transition-property: transform;
   transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); */
 }
 
 .card:hover .card-all-text {
