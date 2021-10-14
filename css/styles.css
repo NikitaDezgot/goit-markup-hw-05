@@ -887,7 +887,7 @@ button {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.port-itms:hover .card-all-text {
+.card:hover .card-all-text {
   opacity: 1;
   transform: translateY(0px);
 }
