@@ -119,21 +119,15 @@ button {
   letter-spacing: 0.02em;
   cursor: pointer;
   list-style: none;
-
-  transition-property: color;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.body-1-top-link :hover {
+/* .body-1-top-link :hover {
   color: #2196f3;
 }
 .body-1-top-link :focus {
   color: #2196f3;
-}
-.body-1-top-link a {
-  text-decoration: none;
-}
+} */
+
 /* .header-item {
   text-decoration: none;
   color: #212121; */
@@ -144,6 +138,17 @@ button {
   color: #212121;
   position: relative;
   padding: 40px 0;
+
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.header-link:focus {
+  color: #2196f3;
+}
+.header-link:hover {
+  color: #2196f3;
 }
 .current {
   color: #2196f3;
@@ -166,14 +171,16 @@ button {
   line-height: 1.14;
   letter-spacing: 0.02em;
   list-style: none;
+}
+
+.header-mail-link,
+.header-tel-link {
+  text-decoration: none;
+  color: #757575;
 
   transition-property: color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-.body-1-top-adr a {
-  text-decoration: none;
-  color: #757575;
 }
 .icon-emeil {
   height: 12px;
@@ -188,10 +195,12 @@ button {
   fill: currentColor;
 }
 
-.body-1-top-adr :hover {
+.header-mail-link:hover,
+.header-tel-link:hover {
   color: #2196f3;
 }
-.body-1-top-adr :focus {
+.header-mail-link:focus,
+.header-tel-link:focus {
   color: #2196f3;
 }
 
@@ -666,10 +675,6 @@ button {
   line-height: 1.2;
   letter-spacing: 0.03em;
   text-decoration: none;
-
-  transition-property: color;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .foot-logo-2 {
@@ -693,6 +698,10 @@ button {
   line-height: 1.2;
   letter-spacing: 0.03em;
   text-decoration: none;
+
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .foot-adres-2 {
   color: #ffffff99;
@@ -703,11 +712,17 @@ button {
   line-height: 1.2;
   letter-spacing: 0.03em;
   text-decoration: none;
+
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.foot a:hover {
+.foot-adres-1:hover,
+.foot-adres-2:hover {
   color: #2196f3;
 }
-.foot a:focus {
+.foot-adres-1:focus,
+.foot-adres-2:focus {
   color: #2196f3;
 }
 
